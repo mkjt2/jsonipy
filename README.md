@@ -1,4 +1,4 @@
-# Jsonipy - CLI tool to convert various file formats to JSON
+# Jsonipy - CLI to convert stuff to JSON
 
 ## Install
 
@@ -26,6 +26,12 @@ options:
 ### Example
 
 Convert a YAML file to JSON, print the result.
+
 ```bash
 cat some.yaml | jsonipy yaml
 ```
+
+## What for?
+
+This might pair well with the powerful [jq](https://jqlang.github.io/jq//). E.g. analyze a TOML file using `jq`
+commands.
