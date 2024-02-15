@@ -1,12 +1,11 @@
 # Jsonipy - CLI to convert stuff to JSON
 
-## Install
+Go from TOML, YAML, JSON5, HCL2 source formats, into JSON.
 
-Use [pipx](https://github.com/pypa/pipx).
+## What for?
 
-```bash
-pipx install git+https://github.com/mkjt2/jsonipy.git
-```
+This might pair well with the powerful [jq](https://jqlang.github.io/jq//). E.g. analyze a TOML file using `jq`
+commands.
 
 ## Usage
 
@@ -31,7 +30,11 @@ Convert a YAML file to JSON, print the result.
 cat some.yaml | jsonipy yaml
 ```
 
-## What for?
+## How to install
 
-This might pair well with the powerful [jq](https://jqlang.github.io/jq//). E.g. analyze a TOML file using `jq`
-commands.
+Use [pipx](https://github.com/pypa/pipx).
+
+```bash
+pipx install git+https://github.com/mkjt2/jsonipy.git
+```
+
