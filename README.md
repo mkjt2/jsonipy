@@ -5,7 +5,7 @@
 Use [pipx](https://github.com/pypa/pipx).
 
 ```bash
-pipx install jsonipy
+pipx install git+https://github.com/mkjt2/jsonipy.git
 ```
 
 ## Usage
