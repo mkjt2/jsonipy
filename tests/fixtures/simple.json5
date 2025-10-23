@@ -1,0 +1,11 @@
+{
+  // This is a JSON5 comment
+  title: "Simple JSON5 Example",
+  count: 42,
+  enabled: true,
+  pi: 3.14,
+  database: {
+    host: "localhost",
+    port: 5432,
+  }, // trailing comma is allowed
+}
